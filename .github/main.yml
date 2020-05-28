@@ -1,5 +1,4 @@
 name: Semantic release 
-
 on: push
 jobs:
   publish:
