@@ -6,14 +6,13 @@ export interface ButtonProps {
 
 export const Button = styled.button<ButtonProps>`
     background: ${props => props.primary ? "red" : "white"};
-    border: 2px solid red;
-    border-radius: 3px;
     color: ${props => props.primary ? "white" : "red"};
-    fonst-size: 1em;
+    cursor: pointer;
+    font-size: 1em;
     height: 50px;
     margin: 1em;
-    padding; 0.25em 1em;
-    width: 175px
+    padding: 0.25em 1em;
+    width: 175px;
 
     &:hover {
         background: #0073cf;
@@ -21,13 +20,13 @@ export const Button = styled.button<ButtonProps>`
     }
 
     &:focus {
+        background: #0073cf;
         outline: 3px solid #0073cf;
         outline-offset: 2px;
     }
 
     &:active {
-        background: #158fef;
-        border-color: #158fef;
+        background: #0073cf;
         color: #FFFFFF;
     }
 
