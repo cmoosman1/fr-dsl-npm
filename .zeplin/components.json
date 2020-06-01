@@ -17,7 +17,7 @@
     ],
     "components": [
         {
-            "path": "src/components/Button.tsx",
+            "path": "src/components/Buttons.js",
             "zeplinNames": [
                 "Buttons / *Primary",
                 "Buttons / *Secondary",
