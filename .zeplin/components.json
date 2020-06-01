@@ -1,0 +1,35 @@
+{
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-react-plugin"
+        },
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config": {
+                "url": "http://localhost:9009",
+                "startScript": "storybook"
+            }
+        }
+    ],
+    "projects": [],
+    "styleguides": [
+        "5e5d9ebc7456997686fca404"
+    ],
+    "components": [
+        {
+            "path": "src/components/Button.tsx",
+            "zeplinNames": [
+                "Buttons / *Primary",
+                "Buttons / *Secondary",
+                "Buttons / Disabled",
+                "Buttons / Cross-Sell"
+            ],
+            "storybook": {
+                "kind": "Design System/Button",
+                "stories": [
+                    "design-system-buttons--primary"
+                ]
+            }
+        }
+    ]
+}
