@@ -11,19 +11,6 @@ const BUTTON_MODIFIERS = {
     large: () => `
         font-size: ${typeScale.header5};
         padding: 16px 24px;
-    `,
-    warning: () => `
-        background-color: ${props => props.theme.status.warningColor};
-        color: ${props => props.theme.textColorInverted};
-
-        &:hover, &:focus {
-            background-color: ${props => props.theme.status.warningColorHover};
-            outline: 3px solid ${props => props.theme.status.warningColorHover};
-        }
-
-        &:active {
-            background-color: ${props => props.theme.status.warningColorActive};
-        }
     `
 }
 

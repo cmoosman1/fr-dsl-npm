@@ -45,7 +45,6 @@ const TextField = styled(({
             value={value}
             onChange={onChange}
             disabled={disabled}
-            error={error}
         />
         {hintText && <Text>{hintText}</Text>}
         {error && <Error>{error}</Error>}

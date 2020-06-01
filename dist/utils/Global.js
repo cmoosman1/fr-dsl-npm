@@ -1,0 +1,9 @@
+var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
+import { createGlobalStyle } from 'styled-components';
+import { primaryFont } from './typography';
+import { normalize } from 'polished';
+export var GlobalStyle = createGlobalStyle(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    ", "\n    \n    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');\n\n    html{\n        font-size: 16px;\n        box-sizing: border-box;\n    }\n\n    *, *:before, *:after {\n        box-sizing: inherit;\n    }\n\n    body {\n        margin-top: 20px;\n        font-family: ", ";\n    }\n\n    main {\n        widt: 90%;\n        margin: 0 auto;\n    }\n\n    #root {\n        padding: 30px;\n    }\n\n    .App {\n        alignItems: center;\n        display: flex;\n        flex-direction: row;\n        flex-wrap: wrap;\n        justifyContent: space-around;\n        width: 100%;\n\n    }\n\n    div{\n        margin: 30px;\n    }\n"], ["\n    ", "\n    \n    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');\n\n    html{\n        font-size: 16px;\n        box-sizing: border-box;\n    }\n\n    *, *:before, *:after {\n        box-sizing: inherit;\n    }\n\n    body {\n        margin-top: 20px;\n        font-family: ", ";\n    }\n\n    main {\n        widt: 90%;\n        margin: 0 auto;\n    }\n\n    #root {\n        padding: 30px;\n    }\n\n    .App {\n        alignItems: center;\n        display: flex;\n        flex-direction: row;\n        flex-wrap: wrap;\n        justifyContent: space-around;\n        width: 100%;\n\n    }\n\n    div{\n        margin: 30px;\n    }\n"])), normalize(), primaryFont);
+var templateObject_1;
