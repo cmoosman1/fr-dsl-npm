@@ -21,7 +21,7 @@
     "polished": "^3.6.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "styled-components": "^5.0.1",
     "styled-components-modifiers": "^1.2.5",
     "typescript": "^3.7.5"
